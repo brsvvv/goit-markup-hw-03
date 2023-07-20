@@ -1,13 +1,7 @@
-*,
-*::before,
-*::after {
-    box-sizing: inherit;
-}
 body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
     background-color: #ffffff;
-    margin: 0;
 }
 :root {
     --navyblue: #2e2f42;
@@ -20,12 +14,6 @@ body {
 .link {
     text-decoration: none;
     list-style-type: none;
-}
-.container {
-    width: 1470px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 0 auto;
 }
 
 .logo {
@@ -64,14 +52,6 @@ body {
 
 .list {
     list-style: none;
-}
-.nav-list {
-    display: flex;
-    gap: 40px;
-}
-.contacts-list {
-    display: flex;
-    margin-left: auto;
 }
 .nav-item {
     color: var(--navyblue, #2e2f42);
