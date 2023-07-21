@@ -36,6 +36,9 @@ ol {
     margin-top: 0;
     margin-bottom: 0;
 }
+header {
+    border-bottom: 1px solid #e7e9fc;
+}
 
 .logo {
     color: var(--iris, #4d5ae5);
@@ -58,6 +61,7 @@ ol {
     letter-spacing: 0.54px;
     text-transform: uppercase;
     text-decoration: none;
+    margin-right: 76px;
 }
 .footer-logo {
     color: var(--cloud, #f4f4fd);
@@ -73,6 +77,18 @@ ol {
 
 .list {
     list-style: none;
+}
+.nav-menu {
+    display: flex;
+    align-items: center;
+}
+.nav-menu-list {
+    display: flex;
+    gap: 40px;
+    padding: 24px 0;
+}
+.menu-nav-item {
+    padding: 24px 0;
 }
 .nav-item {
     color: var(--navyblue, #2e2f42);
@@ -96,6 +112,10 @@ ol {
 .adress-header {
     font-style: normal;
 }
+.adress-menu {
+    display: flex;
+    gap: 40px;
+}
 
 .adress-item {
     color: var(--slate, #434455);
@@ -114,14 +134,20 @@ ol {
     line-height: 1.5em;
     letter-spacing: 0.02em;
 }
-/*.container {
-    width: 1470px;
+.container {
+    width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
-}*/
+    margin: 0 auto;
+}
+.div-wrap {
+    display: flex;
+    align-items: center;
+}
 
 .hero {
     background-color: #2e2f42;
+    padding: 188px 0;
 }
 .hero-title {
     color: #fff;
@@ -131,6 +157,7 @@ ol {
     font-weight: 700;
     line-height: 1.07em;
     letter-spacing: 0.02em;
+    min-width: 496px;
 }
 .hero-btn {
     background: var(--iris, #4d5ae5);
@@ -142,6 +169,12 @@ ol {
     line-height: 1.5em;
     letter-spacing: 0.04em;
     cursor: pointer;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    margin: 0 auto;
 }
 .hero-btn:hover,
 .hero-btn:focus {
@@ -262,4 +295,7 @@ ol {
     font-weight: 400;
     line-height: 1.5em;
     letter-spacing: 0.02em;
+}
+.img {
+    display: block;
 }
