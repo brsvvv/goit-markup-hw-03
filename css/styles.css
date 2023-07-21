@@ -53,6 +53,20 @@ ol {
     display: inline-block;
     margin-right: 76px;
 }
+.logo-footer {
+    color: var(--iris, #4d5ae5);
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 76px;
+    margin-bottom: 16px;
+}
 .header-logo-studio {
     color: var(--navyblue, #2e2f42);
     font-family: Raleway;
@@ -372,6 +386,7 @@ ol {
     font-weight: 500;
     line-height: 1.2em;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 .service-text {
     color: var(--slate, #434455);
